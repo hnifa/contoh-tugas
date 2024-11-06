@@ -1,0 +1,59 @@
+body{
+    margin: 1cm 2cm;/*pasangan atas bawah, kiri kanan*/
+}
+fieldset,legend{
+    border: 4px magenta ridge;
+    border-radius: 25px;
+    background-image: linear-gradient(Cyan, PaleTurquoise, LightCyan);
+    padding: 8px;
+    color:blue;
+    font-weight: bolder;
+}
+p{
+    color:#bc5a45;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13pt;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 0.5cm;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px yellow;
+}
+hr{
+    border: 1px maroon dashed;
+}
+a:link, a:visited{
+    text-decoration: none;
+    border: 1px orangered solid;
+    padding: 3px 6px;
+    background-color: orange;
+    color: red;
+}
+a:hover{
+    text-decoration: none;
+    border: 3px red dotted;
+    padding: 6px 9px;
+    background-color: white;
+    color: blue;
+    border-radius: 25px;
+}
+/*----------pseudo element------------*/
+p.p2:first-line{
+    font-style: italic;
+    color: red;
+    font-size: 16pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p.p2:first-letter{
+    font-size: 40pt;
+    font-weight: bolder;
+    padding: 10px;
+    float: left;
+    color: green;
+}
